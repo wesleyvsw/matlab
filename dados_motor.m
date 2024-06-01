@@ -22,7 +22,7 @@ v_medido_quad = v_medido.^2;
 A_2 = [v_medido_quad(:),v_medido(:),v_um(:)];
 %Resultado funcao linear
 resultado = inv(A'*A)*A'*b';
-%Resultado2 funaoo quadratica
+%Resultado2 funcao quadratica
 resultado2 = inv(A_2'*A_2)*A_2'*b';
 
 %scatter(v_medido,v_tacografo)
